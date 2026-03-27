@@ -8,7 +8,7 @@ while True:
     user_action = input("type add,show, complete , edit , exit : ")
     user_action = user_action.strip()
 
-
+#to check
     if user_action.startswith('add') :
         todo = user_action[4:]
 
